@@ -2,6 +2,8 @@ $primary-color: #117fcf;
 $secondary-color: #6B6256;
 $dark-primary-color: #293741;
 
+$primary-text-font: 'Roboto', sans-serif;
+
 .bg-primary {
     background-color: $primary-color;
 }
@@ -24,4 +26,8 @@ $dark-primary-color: #293741;
 
 .text-dark-primary {
     color: $dark-primary-color;
+}
+
+.primary-text-font {
+    font-family: $primary-text-font;
 }

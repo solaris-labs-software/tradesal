@@ -14,8 +14,8 @@ const Presentation = ({ title, text }) => {
                 }}
             ></div>
             <div className="relative z-1 flex flex-col items-center">
-                <h1 className='text-white text-6xl font-bold mb-5'>{title}</h1>
-                <p className='text-white text-xl'>{text}</p>
+                <h1 className='text-white text-6xl font-bold mb-5 primary-text-font'>{title}</h1>
+                <p className='text-white text-xl primary-text-font'>{text}</p>
             </div>
         </div>
     );
