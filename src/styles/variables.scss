@@ -49,3 +49,28 @@ $text-font-style: "DM Sans", sans-serif;
 .bg-main {
     background-color: $bg-color;
 }
+
+.custom-shadow {
+    box-shadow: none;
+}
+
+@media (min-width: 768px) {
+    .custom-shadow {
+        box-shadow: 10px 10px 5px 0px rgba(117, 114, 114, 0.75);
+    }
+}
+
+.custom-arrow svg path {
+    fill: black;
+}
+
+@media (max-width: 767px) {
+    .custom-arrow svg path {
+        fill: gray;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
