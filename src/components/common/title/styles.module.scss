@@ -1,0 +1,15 @@
+@import '../../../styles/variables.scss';
+
+.title {
+  font-size: 64px;
+  line-height: 1.2;
+  font-family: $primary-text-font;
+}
+
+.dark {
+  color: $light-black;
+}
+
+.light {
+  color: $white;
+}
