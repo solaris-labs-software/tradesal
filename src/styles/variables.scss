@@ -61,12 +61,12 @@ $text-font-style: "DM Sans", sans-serif;
 }
 
 .custom-arrow svg path {
-    fill: grey;
+    fill: #ccc;
 }
 
 @media (max-width: 767px) {
     .custom-arrow svg path {
-        fill: grey;
+        fill: #ccc;
     }
 }
 
