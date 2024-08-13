@@ -10,7 +10,7 @@ const ImageDescriptionCard = ({ imageUrl, description, person }) => {
                 alt="Card Image"
             />
             <div
-                className="bg-neutral-800 w-full md:w-2/3 custom-shadow rounded-md md:rounded-r-md flex flex-col justify-between"
+                className="px-4 bg-neutral-800 w-full md:w-2/3 custom-shadow rounded-md md:rounded-r-md flex flex-col justify-between"
             >
                 <div className="p-4">
                     <img src={quote} alt={'quote'} className="mb-2 w-10 h-10 fill-current text-white" />
