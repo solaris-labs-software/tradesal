@@ -1,6 +1,8 @@
 $primary-color: #117fcf;
-$secondary-color: #6B6256;
+$secondary-color: #5C83F0;
+$constrast-color: #620CF0;
 $dark-primary-color: #293741;
+$bg-color: #657273;
 
 $primary-text-font: 'Roboto', sans-serif;
 
@@ -10,6 +12,14 @@ $primary-text-font: 'Roboto', sans-serif;
 
 .text-primary {
     color: $primary-color;
+}
+
+.text-contrast {
+    color: $constrast-color;
+}
+
+.bg-contrast {
+    background-color: $constrast-color;
 }
 
 .bg-secondary {
@@ -30,4 +40,8 @@ $primary-text-font: 'Roboto', sans-serif;
 
 .primary-text-font {
     font-family: $primary-text-font;
+}
+
+.bg-main {
+    background-color: $bg-color;
 }

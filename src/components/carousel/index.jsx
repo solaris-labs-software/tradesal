@@ -19,7 +19,7 @@ const Carousel = () => {
 
     const data = [
         {
-            url: '/src/assets/bg-presentation.jpg',
+            url: '/src/assets/bike.jpg',
             description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore 
             magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`
@@ -39,17 +39,20 @@ const Carousel = () => {
     ]
 
     return (
-        <div className='mt-10'>
-            <Slider {...settings}>
-                {
-                    data.map((item, index) => (
-                        <div className=' ml-[30rem]'>
-                            <ImageDescriptionCard key={index} imageUrl={item.url} description={item.description} />
-                        </div>
-                    ))
-                }
-            </Slider>
+        <div className='mt-24 w-[100vw] h-[50vh] bg-main flex items-center flex-col'>
+            <div className='bg-gray-500 bg-opacity-50 w-[100vw] rounded-lg p-4 z-10 py-10'>
+                <Slider {...settings}>
+                    {
+                        data.map((item, index) => (
+                            <div className=''>
+                                <ImageDescriptionCard key={index} imageUrl={item.url} description={item.description} />
+                            </div>
+                        ))
+                    }
+                </Slider>
+            </div>
         </div>
+    
     );
 };
 

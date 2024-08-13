@@ -1,12 +1,12 @@
 import React from 'react';
 import '/src/styles/variables.scss';
-import Presentation from '../common/presentation';
+
 
 const Navbar = () => {
     const values = ['Home', 'About', 'Services', 'Contact'];
     return (
-        <>
-            <nav className='flex justify-between bg-primary py-5 align-middle'>
+        <div className='flex flex-col'>
+            <nav className='flex justify-between bg-primary py-5 align-middle z-10 fixed w-[100vw]'>
                 <h1 className='text-white ml-5 text-2xl primary-text-font font-bold'>TRADESAL</h1>
                 <ul className='flex justify-end gap-10'>
                     {
@@ -16,8 +16,7 @@ const Navbar = () => {
                     }
                 </ul>
             </nav>
-            <Presentation title='CURSOS Y CAPACITACIONES' text='"Impulsa tu futuro con cada aprendizaje"' />
-        </>
+        </div>
     );
 };
 
