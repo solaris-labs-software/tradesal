@@ -61,7 +61,7 @@ export const AboutSection = () => {
                             alt={item.title}
                         />
                         <div className={`w-full md:w-auto ${item.imageFirst ? 'md:ml-8' : 'md:mr-8'}`}>
-                            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4">{item.title}</h2>
+                            <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-4 border-l-4 border-blue-600 pl-4">{item.title}</h2>
                             <p className="text-base md:text-lg text-gray-600 leading-relaxed">
                                 {item.description}
                             </p>
