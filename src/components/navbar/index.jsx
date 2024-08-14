@@ -17,8 +17,12 @@ const Navbar = () => {
 
     return (
         <div className='flex flex-col'>
-            <nav className='flex justify-between bg-blue-600 px-10 py-4 align-middle z-10 fixed w-[100vw]'>
-                <h1 className='text-white text-2xl primary-text-font font-bold'>TRADESAL</h1>
+            <nav className='flex justify-between items-center bg-blue-600 px-10 align-middle z-10 fixed w-[100vw]'>
+                <div className='flex items-center'>
+                    <img className='w-20 h-20'src="/src/assets/logo.png" alt="" />
+                    <h1 className='text-white text-2xl primary-text-font font-bold'>TRADESAL</h1>
+                </div>
+                
                 <div className='md:hidden' onClick={toggleMenu}>
                     {isOpen ? <FaTimes className='cursor-pointer text-white text-2xl' /> : <FaBars className='cursor-pointer text-white text-2xl' />}
                 </div>
