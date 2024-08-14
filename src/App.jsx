@@ -10,7 +10,7 @@ function App() {
   return (
       <>
           <video
-              src="/src/assets/background.mp4"
+              src="https://tradesal.blob.core.windows.net/tradesal/background.mp4"
               autoPlay
               loop
               muted
