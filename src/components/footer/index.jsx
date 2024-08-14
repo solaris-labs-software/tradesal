@@ -19,7 +19,7 @@ export const Footer = () => {
                         </div>
                     </div>
                     <div className="md:w-1/3 flex justify-end">
-                        <img className="w-40 h-40" src="/src/assets/logo.png" alt="Logo"/>
+                        <img className="w-40 h-40" src="https://tradesal.blob.core.windows.net/tradesal/logo.png" alt="Logo"/>
                     </div>
                 </div>
                 <div className="text-center text-white mt-4">
