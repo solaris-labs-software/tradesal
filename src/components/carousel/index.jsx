@@ -3,6 +3,9 @@ import Slider from 'react-slick';
 import ImageDescriptionCard from '../common/image-description-card';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import cit from "../../assets/Curso de informatica.jpeg"
+import cit2 from "../../assets/cit.jpeg"
+import manic from "../../assets/curso-manicuria.jpeg"
 import {NextArrow, PrevArrow} from "/src/components/common/arrows/index.jsx";
 
 const Carousel = () => {
@@ -18,25 +21,19 @@ const Carousel = () => {
 
     const data = [
         {
-            url: '/src/assets/bike.jpg',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore 
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
-            person: 'John Doe'
+            url: cit,
+            description: `Hice el curso de CIT (Curso de introduccion al trabajo) en la escuela numero uno de Escobar. Gracias a este curso hoy en dia estoy trabajando en blanco. Es una linda experiencia y muy recomendable. Es algo nuevo para mi y no pense que iba a pasar tan rapido de terminar el colegio a empezar a trabajar y gracias a este curso es posible. `,
+            person: 'Ezequiel - Escobar, 9 de julio'
         },
         {
-            url: '/src/assets/bg-presentation.jpg',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore 
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
-            person: 'Jane Doe'
+            url: cit2,
+            description: `Tuve la oportunidad de realizar el Curso de Introducción al Trabajo (CIT), y quiero expresar mi más sincero agradecimiento a todos aquellos que hicieron posible este curso. Gracias a su dedicación y esfuerzo, hoy he logrado encontrar empleo en el Parque Industrial de Garín. Este curso no solo me brindó las herramientas y conocimientos necesarios para insertarme en el mercado laboral, sino que también me abrió las puertas a nuevas oportunidades y me dio la confianza para enfrentar los desafíos profesionales.`,
+            person: 'Luciana - Savio '
         },
         {
-            url: '/src/assets/bg-presentation.jpg',
-            description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore 
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
-            person: 'Jane Doe'
+            url: manic,
+            description: `Quiero agradecer a todos los que hicieron posible este curso. Está impartido por profesionales que fueron muy amables y simpáticos. A pesar de ser tan joven, comencé a trabajar en mi barrio y a generar mis propios ingresos.`,
+            person: 'Camila - Garin'
         },
     ]
 

@@ -13,35 +13,36 @@ import React from "react";
 const features = [
     {
         title: "Marketing Digital",
-        info: "Como conocer mejor el mercado a traves de herramientas digitales",
+        info: "Aprende a dominar el mercado digital mediante el uso de herramientas avanzadas de análisis y publicidad online. Conoce mejor a tu audiencia y optimiza tus estrategias de marketing para alcanzar a los clientes adecuados en el momento oportuno.",
         image: mdImage,
     },
     {
         title: "Inteligencia Artificial",
-        info: "Descubri las nuevas herramientas para ser mas productivo en tu trabajo",
+        info: "Explora las últimas innovaciones en inteligencia artificial y descubre cómo estas herramientas pueden aumentar tu productividad. Aprende a implementar soluciones de IA en tu flujo de trabajo para automatizar tareas y tomar decisiones más informadas y rápidas.",
         image: iaImage,
     },
     {
         title: "Chofer de camiones",
-        info: "Mejora tus habilidades laborales",
-        image:camiones,
+        info: "Desarrolla y perfecciona las habilidades necesarias para una carrera exitosa como chofer de camiones. Adquiere conocimientos sobre seguridad en carretera, manejo de carga pesada, y técnicas de conducción que te ayudarán a destacarte en la industria del transporte.",
+        image: camiones,
     },
     {
         title: "Marca Personal",
-        info: "Dale tu sello a tus actividades",
+        info: "Construye y fortalece tu marca personal, creando una identidad única que refleje tus valores y habilidades. Aprende a comunicar tu historia, destacarte en tu campo, y atraer oportunidades que se alineen con tus objetivos profesionales y personales.",
         image: marca,
     },
     {
         title: "Manicuria y maquillaje profesional",
-        info: "Aprende a realizar uñas esculpidas y maquillaje profesional",
+        info: "Sumérgete en el mundo de la belleza y la estética aprendiendo técnicas avanzadas de manicuria y maquillaje profesional. Desde uñas esculpidas hasta maquillaje de alta calidad, este curso te prepara para ofrecer servicios de belleza con un toque de distinción.",
         image: manicuria,
     },
     {
         title: "Manejo de Clark",
-        info: "Insertate en el mundo del trabajo con mejores ingresos",
+        info: "Capacítate en el manejo de montacargas y otros equipos de elevación para ingresar a un campo laboral con alta demanda y mejores ingresos. Aprende sobre la operación segura, el mantenimiento básico, y las mejores prácticas para optimizar tu eficiencia en el trabajo.",
         image: clark,
     },
 ];
+
 
 const containerVariants = {
     hidden: { opacity: 0 },
