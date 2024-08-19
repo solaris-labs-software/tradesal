@@ -27,7 +27,7 @@ const Carousel = () => {
         },
         {
             url: cit2,
-            description: `Tuve la oportunidad de realizar el Curso de Introducción al Trabajo (CIT), y quiero expresar mi más sincero agradecimiento a todos aquellos que hicieron posible este curso. Gracias a su dedicación y esfuerzo, hoy he logrado encontrar empleo en el Parque Industrial de Garín. Este curso no solo me brindó las herramientas y conocimientos necesarios para insertarme en el mercado laboral, sino que también me abrió las puertas a nuevas oportunidades y me dio la confianza para enfrentar los desafíos profesionales.`,
+            description: `Tuve la oportunidad de realizar el Curso de Introducción al Trabajo (CIT), y quiero expresar mi más sincero agradecimiento a todos aquellos que hicieron posible este curso. Gracias a su dedicación y esfuerzo, hoy he logrado encontrar empleo en el Parque Industrial de Garín. Este curso no solo me brindó las herramientas y conocimientos necesarios para insertarme en el mercado laboral, sino que también me abrió las puertas a nuevas oportunidades.`,
             person: 'Luciana - Savio '
         },
         {

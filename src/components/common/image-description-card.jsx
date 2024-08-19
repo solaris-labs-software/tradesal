@@ -1,11 +1,10 @@
 import React from 'react';
 import quote from '/src/assets/quote.svg';
-
 const ImageDescriptionCard = ({ imageUrl, description, person }) => {
     return (
         <div className="flex flex-col md:flex-row align-middle h-auto md:h-[50vh] w-full justify-center rounded-md p-4">
             <img
-                className="hidden md:block w-full md:w-1/3 rounded-l-md custom-shadow"
+                className="hidden md:block w-full md:w-1/3 rounded-l-md custom-shadow object-cover object-center"
                 src={imageUrl}
                 alt="Card Image"
             />
