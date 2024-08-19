@@ -7,7 +7,7 @@ const Navbar = () => {
     const values = [
         { name: 'Nosotros', href: '#nosotros' },
         { name: 'Cursos', href: '#cursos' },
-        { name: 'Reviews', href: '#reviews' },
+        { name: 'Testimonios', href: '#reviews' },
         { name: 'Contacto', href: '#contacto' }
     ];
 
