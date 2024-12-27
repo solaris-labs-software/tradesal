@@ -12,10 +12,10 @@ export const Footer = () => {
                                 <img src={phone} alt={"phone"} className="w-6 h-6"/>
                                 <span className="text-white">Phone: +54 9-11 6265 1619</span>
                             </div>
-                            {/*<div className="flex items-center space-x-4">*/}
-                            {/*    <img src={email} alt={"email"} className="w-6 h-6"/>*/}
-                            {/*    <span className="text-white">Email: info@yourcompany.com</span>*/}
-                            {/*</div>*/}
+                            <div className="flex items-center space-x-4">
+                                <img src={email} alt={"email"} className="w-6 h-6"/>
+                                <span className="text-white">Email: tradesal.ac@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                     <div className="md:w-1/3 flex justify-end">
