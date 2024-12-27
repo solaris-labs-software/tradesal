@@ -39,8 +39,8 @@ const Carousel = () => {
 
     return (
         <div id="reviews" className='p-6 md:p-12 bg-white flex flex-col'>
-            <h2 className="mb-5 text-zinc-800 text-4xl md:text-5xl lg:text-6xl font-bold">Nuestros clientes</h2>
-            <h4 className="mb-4 text-gray-600 text-lg md:text-xl lg:text-2xl">Conoce lo que nuestros clientes opinan sobre nosotros.</h4>
+            <h2 className="mb-5 text-zinc-800 text-4xl md:text-5xl lg:text-6xl font-bold">Testimonios</h2>
+            <h4 className="mb-4 text-gray-600 text-lg md:text-xl lg:text-2xl"></h4>
             <div className='mx-auto w-full md:w-[80vw] lg:w-[70vw] rounded-lg p-4'>
                 <Slider {...settings}>
                     {
